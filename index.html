@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 3 </title>
+    </head>
+<body>
+
+    <h1>Assignment 3</h1>
+
+    <form action="Assignment3formSubmission" method="get">
+        <label for="fname"><b>First Name:-</b></label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname"><b>Last Name:-</b></label>
+        <input type="text" id="lname" name="lname" required>
+        <hr><br>
+        <b>I love:-</b><br><br>
+        <input type="radio" id="option1" name="i_love" value="Eating_Chickens">
+        <label for="option1">Eating Chickens</label><br><br>
+        <input type="radio" id="option2" name="i_love" value="Travelling">
+        <label for="option2">Travelling</label><br><br>
+        <input type="radio" id="option3" name="i_love" value="Developing">
+        <label for="option3">Developing</label><br><br>
+        <hr>
+        <input type="checkbox" id="option1" name="i_own1" value="Laptop">
+        <label for="option1"> I have a Laptop.</label><br>
+        <input type="checkbox" id="option2" name="i_own2" value="Mobile_Phone">
+        <label for="option2"> I have a Mobile Phone.</label><br>
+        <input type="checkbox" id="option3" name="i_own3" value="Desktop">
+        <label for="option3"> I have a Desktop.</label><br>
+        <hr>
+        <label for="email"><b>Email:-</b></label>
+        <input type="email" id="email" name="email" required>
+        <label for="pwd"><b>Password:-</b></label>
+        <input type="password" id="pwd" name="pwd" minlength="5" required>
+        <hr>
+        <label for="Age"><b>Tell us your age :-</b></label>
+        <select id="Age" name="Age">
+            <option >Select Age</option>
+            <option value="Kid">1-17</option>
+            <option value="Adult">18-30</option>
+            <option value="Middle_Age_Adults">31-60</option>
+            <option value="Old_Adult">60+</option>
+        </select>
+    <hr>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
